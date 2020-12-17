@@ -5,17 +5,7 @@ const MobileMenu = (props) => {
         <nav className={`c-nav_mobile ${props.expanded ? 'is-open' : 'is-hidden'}`}>
             <div className="c-nav_toolbar">
                 <a href="/" className="c-hplogo">
-                    <svg 
-                        version="1.1" 
-                        id="Layer_1_1_" 
-                        x="0px" y="0px" 
-                        viewBox="0 0 16 16" 
-                        // style="enable-background:new 0 0 16 16;" 
-                        >
-                        <polygon points="0,5 8,9 15,5.5 15,14 16,14 16,5 8,1 "/>
-                        <polygon points="3,7.059 3,11.5 8,14 13,11.5 13,7.059 8,9.559 "/>
-                    </svg>
-                    <span className="c-hplogo-white" >WLINDB</span>
+                    <span className="c-hplogo-white" >{'</wl>'}</span>
                 </a>
                 <button className="hamburger-btn-close" onClick={props.onClick}>
                     <svg

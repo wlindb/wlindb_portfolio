@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-@import url('https://use.fontawesome.com/releases/v5.12.0/css/all.css');
 @import 'config';
 @import 'utilities';
 @import 'forms';
@@ -11,29 +9,76 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+html {
+    margin: 0;
 }
 
 body {
     background-color: $tertiary-color;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
-    height: 100vh;
-    overflow-y: hidden;
+    font-family: 'Cantarell', sans-serif;
 }
 
-.login-container {
-    // background-color: $primary-color;
-    color: #fff;
-    height: 600px;
-}
+
+
 
 #root {
     margin: 0;
-    height: inherit;
+    height: 100vh;
 }
 
 .App {
     height: inherit;
-    margin-top: 60px;
+}
+
+.home-container {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-text {
+    text-align: center;
+    margin-top: 18vh;
+    color: $light-color;
+    flex: 2;
+    width: 90%;
+    h1 {
+        width: 90vw;
+        font-weight: bolder;
+        font-size: 18vw;
+        line-height: 75%;
+        color: $light-color;
+        text-shadow:    0px 0px .15vw $light-color, .8vw 0px 6px $primary-color, 
+                        0px 0px .15vw $light-color, .8vw 0px 6px $primary-color, 
+                        0px 0px .15vw $light-color, .8vw 0px 6px $primary-color, 
+                        0px 0px .15vw $light-color, .8vw 0px 6px $primary-color, 
+                        0px 0px .15vw $light-color, .8vw 0px 6px $primary-color, 
+                        0px 0px .15vw $light-color, .8vw 0px 6px $primary-color, 
+                        2px 3px 20px rgba(0, 0, 0, 0.5); 
+        
+    }
+
+    h2 {
+        margin: 40px;
+        color: $light-color;
+    }
+}
+
+.logo-container {
+    margin-bottom: 8px;
+    a {
+        padding: 0 10px 0 10px;
+    }
 }
 
