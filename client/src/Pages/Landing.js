@@ -1,6 +1,5 @@
 import React from 'react'
 import githubLogo from '../assets/img/GitHub-Mark-Light-120px-plus.png';
-// /home/wlindb/Documents/code_sunday/wlindb_portfolio/client/src/assets/img/GitHub-Mark-Light-120px-plus.png
 import linkedinLogo from '../assets/img/linkedin-128.png';
 
 const Landing = () => {
