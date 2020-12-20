@@ -56,7 +56,7 @@ const Contact = () => {
               <div className="form-group">
                   <textarea required className="form-control" name='message' placeholder="Message" value={values.message} onChange={handleChange}  rows={5} id="message"></textarea>
               </div>
-              <ReCAPTCHA size='invisible' sitekey={sitekey}/>
+              <ReCAPTCHA size='invisible' sitekey={'6Lefp-UUAAAAABVn9n3qzrUsw_hp7p4fRaT7Sidu'}/>
               <div className="btn-container">
                 <button type="submit" className="submit-btn">Submit</button>
               </div>
