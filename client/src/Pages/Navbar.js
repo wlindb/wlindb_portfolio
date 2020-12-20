@@ -6,7 +6,7 @@ import HamburgerBTN from '../components/HamburgerBtn';
 import MobileMenu from '../components/MobileMenu';
 
 const Navbar = () => {
-    const [routes] = useState(['Home', 'About', 'Portfolio', 'Contact']);
+    const [routes] = useState(['Home', 'Portfolio', 'Contact']); // useState(['Home', 'About', 'Portfolio', 'Contact']);
     const windowSize = useWindowSize();
     const [expanded, setExpanded] = useState(false);
     const [onMobile, setOnMobile] = useState(windowSize.width < 850);

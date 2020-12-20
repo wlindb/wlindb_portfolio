@@ -1,0 +1,111 @@
+.contact-container {
+    /* background-color: #fbfbf8; */
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90vw;
+    // height: 85vh;
+    height: 70vh;
+    /* margin: 0 auto; */
+    // margin: 1rem auto;
+    margin: 6rem auto;
+    // padding: 8rem;
+    overflow: hidden;
+    /* width: 90%; */
+    border-radius: 8px;
+}
+
+#contact-form {
+    width: inherit;
+}
+
+.contact-header {
+    margin: 10px;
+    font-size: 5vh;
+    /* text-align: left; */
+    color: #00688B;
+    font-family: "Open Sans bold" , sans-serif;
+}
+
+.login-box{
+    color: white;
+}
+
+.form-group {
+    width: 90%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    /* margin: 8px 0; */
+    margin: auto;
+    border-bottom: 1px solid #a2a2a2;
+}
+
+.form-group #message {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-box p, a {
+    font: inherit;
+    color: white;
+    text-align: left;
+}
+
+.contact-box {
+    height: inherit;
+    overflow: hidden;
+    margin-bottom: 20px !important;
+}
+
+.contact-box p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.form-group i {
+    width: 26px;
+    float: left;
+    text-align: center;
+    padding-top: 4px;
+}
+
+input:invalid, textarea:invalid {
+    box-shadow: none;
+}
+
+.form-group input, textarea {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.form-group .submit-btn {
+    border: none;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    width: 40%;
+    font: inherit;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 30px 4px 4px 4px;
+}
+
+.submit-btn:hover {
+    border: 2px solid #4caf50;
+}

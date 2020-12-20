@@ -9,7 +9,7 @@ const PortfolioItem = (props) => {
         <div className="portfolioitem-container">
             <div className="row">
                 <div className="col">
-                    <img src={props.imgSrc} className="portfolio-item-img"/>
+                    <img src={props.imgSrc} className="portfolio-item-img" alt=""/>
                     <hr className='laptop-stand'/>
                     <hr className='laptop-bottom'/>
                 </div>

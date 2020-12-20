@@ -1,8 +1,8 @@
 import React from 'react';
 import PortfolioItem from '../components/PortfolioItem';
-import armadaFAQ from '../assets/img/armada-faq-16-9.png';
-import armadaMatching from '../assets/img/armada-matching-16-9.png';
-import cardsAgainstHumanity from '../assets/img/cards-against-humanity-16-9.png';
+import armadaFAQ from '../assets/img/armada-faq-16-9_small.png';
+import armadaMatching from '../assets/img/armada-matching-16-9_small.png';
+import cardsAgainstHumanity from '../assets/img/cards-against-humanity-16-9_small.png';
 
 const Portfolio = () => {
 
